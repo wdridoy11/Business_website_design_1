@@ -1,0 +1,92 @@
+/*========================= domaname css =========================*/
+/* @media screen and (max-width:px) {} */
+/* @media screen and (max-width:1399px) {
+    .container {
+        width: 100%;
+        padding: 0 50px;
+        margin: 0 auto;
+
+    }
+} */
+
+@media screen and (max-width:992px) {
+    .domain-idea ul li h3 {
+        font-size: 1.2rem;
+
+    }
+}
+
+@media screen and (max-width:824px) {
+    .domain-idea {
+        margin-top: 60px;
+    }
+
+    .domain-idea ul {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .domain-idea ul li {
+        width: 30%;
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    .domain-idea ul li h3 {
+        margin: 0;
+    }
+
+    .domain-idea ul li:last-child {
+        border-right: none;
+    }
+
+}
+
+/*========================= products item css =========================*/
+
+@media screen and (max-width:992px) {
+    .products-item h3 {
+        font-size: 1.8rem;
+    }
+}
+
+/*========================= Testimonial item css =========================*/
+@media screen and (max-width:991px) {
+    .owl-carousel .item {
+        width: 70%;
+    }
+
+    .owl-nav {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:521px) {
+    .owl-nav {
+        width: 93%;
+    }
+}
+
+/*========================= Started  css =========================*/
+@media screen and (max-width:526px) {
+    .Started-content {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+/*========================= footer css =========================*/
+@media screen and (max-width:526px) {
+    .Started-content {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
